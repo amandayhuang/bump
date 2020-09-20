@@ -13,7 +13,6 @@ const Joke = () =>{
     const getJoke = async () =>{
         const settings = {
             async: true,
-            //   crossDomain: true,
             url: "https://icanhazdadjoke.com/",
             method: "GET",
             headers: {
