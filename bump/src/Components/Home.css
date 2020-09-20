@@ -1,0 +1,17 @@
+.box {
+    margin: 0 auto;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
